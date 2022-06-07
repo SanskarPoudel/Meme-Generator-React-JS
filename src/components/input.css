@@ -1,0 +1,89 @@
+.input {
+  margin-left: 20%;
+  margin-top: 30px;
+  margin: 0 auto;
+  width: 95%;
+  max-width: 900px;
+}
+.texts {
+  display: flex;
+  padding: 1em;
+  justify-content: space-evenly;
+}
+.input1 {
+  height: 35px;
+  width: 330px;
+
+  border: 2px solid #d5d4d8;
+  border-radius: 7px;
+}
+.input2 {
+  height: 35px;
+  width: 330px;
+
+  border: 2px solid #d5d4d8;
+  border-radius: 7px;
+}
+.button {
+  height: 40px;
+  width: 100%;
+  margin-bottom: 1em;
+  border-color: #672280;
+  background: linear-gradient(90.41deg, #711f8d 1.14%, #a818da 100%);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+.button > h2 {
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0 auto;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+.image {
+  position: relative;
+}
+.image > h1 {
+  position: absolute;
+  width: 80%;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 15px 0;
+  padding: 0 5px;
+  font-family: impact, sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+  text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000,
+    -2px 2px 0 #000, 0 2px 0 #000, 2px 0 0 #000, 0 -2px 0 #000, -2px 0 0 #000,
+    2px 2px 5px #000;
+}
+.image > h2 {
+  position: absolute;
+  width: 80%;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 15px 0;
+  padding: 0 5px;
+  bottom: 15px;
+  font-family: impact, sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+  text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000,
+    -2px 2px 0 #000, 0 2px 0 #000, 2px 0 0 #000, 0 -2px 0 #000, -2px 0 0 #000,
+    2px 2px 5px #000;
+}
+.image > img {
+  width: 100%;
+
+  border-radius: 3px;
+}

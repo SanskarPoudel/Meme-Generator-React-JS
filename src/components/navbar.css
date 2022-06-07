@@ -1,0 +1,30 @@
+.navbar{
+    height: 20%;
+    width: 95%;
+max-width: 900px;
+   background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+   display: flex;
+   align-items: center;
+   margin: 0 auto;
+   display: flex;
+}
+.navbar > img {
+    object-fit: contain;
+    height: 40px;
+    padding-left: 15px;
+}
+.navbar h1{
+    color: white;
+    font-size: 28px;
+    font-weight: 600;
+    padding-left: 2px;
+    padding-bottom:8px;
+    
+}
+.navbar > h3 {
+    margin: 0 auto;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom:8px;
+}
